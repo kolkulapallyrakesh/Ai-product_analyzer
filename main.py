@@ -15,7 +15,6 @@ import bcrypt
 from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session, relationship
-from passlib.context import CryptContext
 import jwt
 load_dotenv()
 app = FastAPI(title="Enterprise AI Product Analyzer Backend", version="1.0.0")
