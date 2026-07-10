@@ -5,7 +5,7 @@ import pandas as pd
 
 st.set_page_config(page_title="AI Product Analyzer", layout="wide")
 
-FASTAPI_BASE_URL = "http://127.0.0.1:8000"
+FASTAPI_BASE_URL = "https://ai-product-analyzer-backend.onrender.com"
 FASTAPI_ANALYZE_URL = f"{FASTAPI_BASE_URL}/analyze"
 FASTAPI_HISTORY_URL = f"{FASTAPI_BASE_URL}/history"
 FASTAPI_REGISTER_URL = f"{FASTAPI_BASE_URL}/register"
