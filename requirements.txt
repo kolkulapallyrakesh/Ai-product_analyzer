@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+groq
+python-dotenv
+pyjwt
+bcrypt
+pillow
+streamlit
+requests
+plotly
+pandas
