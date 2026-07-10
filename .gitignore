@@ -1,0 +1,5 @@
+.env
+ingredients_vault.db
+__pycache__/
+.vscode/
+.venv/
