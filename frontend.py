@@ -94,9 +94,9 @@ with tab1:
     uploaded_file = st.file_uploader("Upload product packaging file...", type=["jpg", "jpeg", "png", "heic", "heif"])
 
     if uploaded_file is not None:
-        st.image(uploaded_file, caption="Target Processing Matrix", width='stretch')
+        st.image(uploaded_file, caption="Processing photo", width='stretch')
         
-        if st.button("Execute Pipeline Audit", type="primary"):
+        if st.button("Execute", type="primary"):
             with st.spinner("Decoding pixels,Processing...."):
                 try:
                     files = {"file": (uploaded_file.name, uploaded_file.getvalue(), uploaded_file.type)}
